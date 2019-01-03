@@ -1,0 +1,160 @@
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+	
+	.form-inputs {
+		width: 77.15%;
+	}
+	.article {
+		width: 100%;
+	}
+	.article--the-biggest {
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+	.article{
+		width: auto;
+	}
+	.article--the-biggest {
+		width: auto;
+	}
+	.arrow {
+		display: none;
+	}
+	
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+	
+	input[type=text],
+	input[type=password]  {
+		display: list-item;
+		margin: 15px auto;
+	}
+	
+	form {
+	box-sizing: border-box;
+	}
+
+	.arrow, .wave {
+		display: none;
+	}
+
+	.form-inputs {
+		width: 100%;
+	}
+
+	#main {
+	background: url(../img/elipse.png) no-repeat, url(../img/map.jpg) no-repeat;
+    background-position: center -840px, -84px 96px; 
+    }
+
+}
+	
+@media screen and (min-width: 375px) and (max-width: 414px) {
+
+	.arrow, .wave {
+		display: none;
+	}
+
+	form {
+	box-sizing: border-box;
+	}
+
+	input[type=text], 
+	input[type=password] {
+		display: list-item;
+		margin: 15px auto;
+	}
+
+	.form-inputs {
+		width: auto;
+	}
+
+	#main {
+	background: url(../img/elipse.png) no-repeat, url(../img/map.jpg) no-repeat;
+    background-position: center -775px, -84px 96px; 
+    }
+
+    .article {
+    	width: auto;
+    }
+
+    .article--the-biggest {
+    	width: auto;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+
+
+	.arrow, .wave {
+		display: none;
+	}
+
+	form {
+	box-sizing: border-box;
+	}
+
+	.article--the-biggest {
+		width: 100%;
+	}
+
+	input[type=text], 
+	input[type=password] {
+		display: list-item;
+		margin: 15px auto;
+	}
+
+	.form-inputs {
+		width: 100%;
+	}
+
+	#main {
+	background: url(../img/elipse.png) no-repeat, url(../img/map.jpg) no-repeat;
+    background-position: center -755px, -84px 96px; 
+    }
+
+     .article {
+    	width: auto;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+	#main {
+	background: url(../img/elipse.png) no-repeat, url(../img/map.jpg) no-repeat;
+    background-position: center -735px, -84px 96px; 
+    }
+
+    .arrow, .wave {
+		display: none;
+	}
+
+    .article {
+    	width: auto;
+    }
+
+    .article--the-biggest {
+    	width: auto;
+    }
+
+    .form-inputs {
+    	width: auto;
+    }
+
+    input[type=text], 
+    input[type=password] {
+		display: list-item;
+		margin: 15px auto;
+	}
+
+	form {
+	box-sizing: border-box;
+	}
+}
+
